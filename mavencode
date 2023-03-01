@@ -1,0 +1,4 @@
+mvn archetype:generate -DgroupId=com.MOON.app -DartifactId=M -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+cd M
+mvn package
+java -cp target/M-1.0-SNAPSHOT.jar com.MOON.app.App
